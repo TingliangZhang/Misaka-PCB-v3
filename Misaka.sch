@@ -511,8 +511,6 @@ F4 "RESET" O L 6500 5900 50
 $EndSheet
 Wire Wire Line
 	1700 2650 2100 2650
-Wire Wire Line
-	1400 2650 1300 2650
 $Comp
 L power:GND #PWR0117
 U 1 1 5E622AF8
@@ -546,12 +544,14 @@ AMASS package and this symbol \npositive and negative mapping is opposite\nIt ca
 $Comp
 L Device:Battery_Cell J1
 U 1 1 5E620D8E
-P 1500 2650
-F 0 "J1" V 1283 2600 50  0000 C CNN
-F 1 "Battery" V 1374 2600 50  0000 C CNN
-F 2 "Connector_AMASS:AMASS_XT30PW-M_1x02_P2.50mm_Horizontal" V 1150 3550 50  0000 C CNN
-F 3 "~" H 1500 2600 50  0001 C CNN
-	1    1500 2650
-	0    1    1    0   
+P 1600 2650
+F 0 "J1" V 1383 2600 50  0000 C CNN
+F 1 "Battery" V 1474 2600 50  0000 C CNN
+F 2 "Connector_AMASS:AMASS_XT30PW-M_1x02_P2.50mm_Horizontal" V 1300 2550 50  0000 C CNN
+F 3 "~" H 1600 2600 50  0001 C CNN
+	1    1600 2650
+	0    -1   -1   0   
 $EndComp
+Wire Wire Line
+	1300 2650 1400 2650
 $EndSCHEMATC
