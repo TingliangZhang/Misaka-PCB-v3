@@ -268,9 +268,9 @@ Wire Wire Line
 	6500 5650 6250 5650
 Wire Wire Line
 	6500 6150 6250 6150
-Text Label 6250 5650 0    50   ~ 0
-TX0
 Text Label 6250 6150 0    50   ~ 0
+TX0
+Text Label 6250 5650 0    50   ~ 0
 RX0
 $Comp
 L dk_RF-Transceiver-Modules:XB24CZ7PIT-004 MOD1
