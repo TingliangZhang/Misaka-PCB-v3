@@ -150,42 +150,6 @@ Text Label 5800 4700 0    50   ~ 0
 RX0
 Text Label 5800 4800 0    50   ~ 0
 TX0
-Wire Wire Line
-	10450 3150 10700 3150
-Wire Wire Line
-	10450 3400 10700 3400
-Wire Wire Line
-	10450 3650 10700 3650
-Wire Wire Line
-	10450 4400 10700 4400
-Wire Wire Line
-	10450 4650 10700 4650
-Wire Wire Line
-	10450 4900 10700 4900
-Wire Wire Line
-	10450 5650 10700 5650
-Wire Wire Line
-	10450 5900 10700 5900
-Wire Wire Line
-	10450 6150 10700 6150
-Text Label 10700 3150 2    50   ~ 0
-MS1
-Text Label 10700 3400 2    50   ~ 0
-MS2
-Text Label 10700 3650 2    50   ~ 0
-MS3
-Text Label 10700 4400 2    50   ~ 0
-MS1
-Text Label 10700 5650 2    50   ~ 0
-MS1
-Text Label 10700 4650 2    50   ~ 0
-MS2
-Text Label 10700 5900 2    50   ~ 0
-MS2
-Text Label 10700 4900 2    50   ~ 0
-MS3
-Text Label 10700 6150 2    50   ~ 0
-MS3
 $Comp
 L power:GND #PWR0127
 U 1 1 5E64EFCB

@@ -245,20 +245,6 @@ $EndComp
 Wire Wire Line
 	4450 1600 4450 1500
 $Comp
-L Connector:Conn_01x04_Male J2
-U 1 1 5E60B6B4
-P 6750 3100
-AR Path="/5E5FA4ED/5E60B6B4" Ref="J2"  Part="1" 
-AR Path="/5E601D92/5E60B6B4" Ref="J3"  Part="1" 
-AR Path="/5E6050A3/5E60B6B4" Ref="J4"  Part="1" 
-F 0 "J2" H 6722 2982 50  0000 R CNN
-F 1 "Conn_01x04_Male" H 6722 3073 50  0000 R CNN
-F 2 "Connector_Molex:Molex_PicoBlade_53047-0410_1x04_P1.25mm_Vertical" H 6750 3100 50  0001 C CNN
-F 3 "~" H 6750 3100 50  0001 C CNN
-	1    6750 3100
-	-1   0    0    1   
-$EndComp
-$Comp
 L Device:C C-VMA1
 U 1 1 5E6128D6
 P 6750 3700
@@ -629,4 +615,18 @@ Wire Wire Line
 	6500 3150 6500 3100
 Wire Wire Line
 	6500 3100 6550 3100
+$Comp
+L Connector:Conn_01x04_Male J2
+U 1 1 5E60B6B4
+P 6750 3100
+AR Path="/5E5FA4ED/5E60B6B4" Ref="J2"  Part="1" 
+AR Path="/5E601D92/5E60B6B4" Ref="J3"  Part="1" 
+AR Path="/5E6050A3/5E60B6B4" Ref="J4"  Part="1" 
+F 0 "J2" H 6722 2982 50  0000 R CNN
+F 1 "Conn_01x04_Male" H 6722 3073 50  0000 R CNN
+F 2 "Connector_Molex:Molex_PicoBlade_53047-0410_1x04_P1.25mm_Vertical" H 6750 3100 50  0001 C CNN
+F 3 "~" H 6750 3100 50  0001 C CNN
+	1    6750 3100
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC

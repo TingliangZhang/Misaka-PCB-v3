@@ -244,66 +244,9 @@ $EndComp
 Text HLabel 5500 2550 2    50   Output ~ 0
 RESET
 Wire Wire Line
-	4550 1850 4950 1850
-Wire Wire Line
-	4550 1950 4850 1950
-Wire Wire Line
 	3350 2150 3750 2150
 Wire Wire Line
 	3350 2250 3750 2250
-$Comp
-L Connector:Conn_01x04_Female J7
-U 1 1 5E60C088
-P 5350 1450
-F 0 "J7" H 5378 1426 50  0000 L CNN
-F 1 "Conn_01x04_Female_UART" H 5378 1335 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" H 5350 1450 50  0001 C CNN
-F 3 "~" H 5350 1450 50  0001 C CNN
-	1    5350 1450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4950 1850 4950 1650
-Wire Wire Line
-	4950 1650 5150 1650
-Connection ~ 4950 1850
-Wire Wire Line
-	4950 1850 5100 1850
-Wire Wire Line
-	4850 1950 4850 1550
-Wire Wire Line
-	4850 1550 5150 1550
-Connection ~ 4850 1950
-Wire Wire Line
-	4850 1950 5100 1950
-$Comp
-L power:GND #PWR0171
-U 1 1 5E6138D2
-P 4950 1450
-F 0 "#PWR0171" H 4950 1200 50  0001 C CNN
-F 1 "GND" H 4955 1277 50  0000 C CNN
-F 2 "" H 4950 1450 50  0001 C CNN
-F 3 "" H 4950 1450 50  0001 C CNN
-	1    4950 1450
-	0    1    1    0   
-$EndComp
-$Comp
-L power:+5V #PWR0172
-U 1 1 5E614188
-P 5050 1250
-F 0 "#PWR0172" H 5050 1100 50  0001 C CNN
-F 1 "+5V" H 5065 1423 50  0000 C CNN
-F 2 "" H 5050 1250 50  0001 C CNN
-F 3 "" H 5050 1250 50  0001 C CNN
-	1    5050 1250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4950 1450 5150 1450
-Wire Wire Line
-	5150 1350 5050 1350
-Wire Wire Line
-	5050 1350 5050 1250
 $Comp
 L power:+5V #PWR0173
 U 1 1 5E64CBD9
@@ -326,4 +269,8 @@ Wire Wire Line
 	5200 2550 5500 2550
 Wire Wire Line
 	5200 2950 5200 3050
+Wire Wire Line
+	4550 1850 5100 1850
+Wire Wire Line
+	4550 1950 5100 1950
 $EndSCHEMATC
