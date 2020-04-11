@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 10
+Sheet 1 9
 Title ""
 Date ""
 Rev ""
@@ -444,25 +444,9 @@ F 3 "" H 7450 2050 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7200 2050 7450 2050
-$Sheet
-S 8000 2900 1000 1000
-U 5E68B603
-F0 "CameraModule" 50
-F1 "Camera.sch" 50
-F2 "SCL" B L 8000 3200 50 
-F3 "SDA" B L 8000 3600 50 
-$EndSheet
 Text Label 5800 3800 0    50   ~ 0
 SCL
 Text Label 5800 3900 0    50   ~ 0
-SDA
-Wire Wire Line
-	8000 3200 7750 3200
-Wire Wire Line
-	8000 3600 7750 3600
-Text Label 7750 3200 0    50   ~ 0
-SCL
-Text Label 7750 3600 0    50   ~ 0
 SDA
 $Sheet
 S 6500 4150 1000 1000
@@ -554,82 +538,4 @@ F 3 "~" H 1600 2600 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1300 2650 1400 2650
-$Comp
-L Connector:Conn_01x06_Male J?
-U 1 1 5E92E8D4
-P 1700 4600
-F 0 "J?" H 1808 4981 50  0000 C CNN
-F 1 "Conn_01x06_Male" H 1808 4890 50  0000 C CNN
-F 2 "" H 1700 4600 50  0001 C CNN
-F 3 "~" H 1700 4600 50  0001 C CNN
-	1    1700 4600
-	1    0    0    -1  
-$EndComp
-Text Label 1900 4400 0    50   ~ 0
-D6
-Text Label 1900 4500 0    50   ~ 0
-D7
-Text Label 1900 4600 0    50   ~ 0
-D8
-Text Label 1900 4700 0    50   ~ 0
-D9
-Text Label 1900 4800 0    50   ~ 0
-D10
-Text Label 1900 4900 0    50   ~ 0
-D11
-$Comp
-L Connector:Conn_01x04_Male J?
-U 1 1 5E935723
-P 2600 4550
-F 0 "J?" H 2708 4831 50  0000 C CNN
-F 1 "Conn_01x04_Male" H 2708 4740 50  0000 C CNN
-F 2 "" H 2600 4550 50  0001 C CNN
-F 3 "~" H 2600 4550 50  0001 C CNN
-	1    2600 4550
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5V #PWR?
-U 1 1 5E93710C
-P 2800 4550
-F 0 "#PWR?" H 2800 4400 50  0001 C CNN
-F 1 "+5V" H 2815 4723 50  0000 C CNN
-F 2 "" H 2800 4550 50  0001 C CNN
-F 3 "" H 2800 4550 50  0001 C CNN
-	1    2800 4550
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5E9388D9
-P 2800 4750
-F 0 "#PWR?" H 2800 4500 50  0001 C CNN
-F 1 "GND" H 2805 4577 50  0000 C CNN
-F 2 "" H 2800 4750 50  0001 C CNN
-F 3 "" H 2800 4750 50  0001 C CNN
-	1    2800 4750
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+3.3V #PWR?
-U 1 1 5E9395EB
-P 2800 4650
-F 0 "#PWR?" H 2800 4500 50  0001 C CNN
-F 1 "+3.3V" H 2815 4823 50  0000 C CNN
-F 2 "" H 2800 4650 50  0001 C CNN
-F 3 "" H 2800 4650 50  0001 C CNN
-	1    2800 4650
-	0    1    1    0   
-$EndComp
-$Comp
-L power:+BATT #PWR?
-U 1 1 5E93C551
-P 2800 4450
-F 0 "#PWR?" H 2800 4300 50  0001 C CNN
-F 1 "+BATT" H 2815 4623 50  0000 C CNN
-F 2 "" H 2800 4450 50  0001 C CNN
-F 3 "" H 2800 4450 50  0001 C CNN
-	1    2800 4450
-	1    0    0    -1  
-$EndComp
 $EndSCHEMATC
