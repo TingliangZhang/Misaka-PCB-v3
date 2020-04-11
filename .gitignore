@@ -2,3 +2,5 @@
 fp-info-cache
 *.sch-bak
 Misaka-cache.lib
+_autosave-Misaka.kicad_pcb
+*.kicad_pcb-bak

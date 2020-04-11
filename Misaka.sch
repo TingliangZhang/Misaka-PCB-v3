@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 9
+Sheet 1 8
 Title ""
 Date ""
 Rev ""
@@ -185,54 +185,6 @@ MS2
 Text Label 10700 4900 2    50   ~ 0
 MS3
 Text Label 10700 6150 2    50   ~ 0
-MS3
-$Comp
-L Switch:SW_DIP_x03 SW1
-U 1 1 5E63CD4E
-P 9950 2100
-F 0 "SW1" H 9950 2567 50  0000 C CNN
-F 1 "SW_DIP_x03" H 9950 2476 50  0000 C CNN
-F 2 "Button_Switch_SMD:SW_DIP_SPSTx03_Slide_6.7x9.18mm_W8.61mm_P2.54mm_LowProfile" H 9950 2100 50  0001 C CNN
-F 3 "~" H 9950 2100 50  0001 C CNN
-	1    9950 2100
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5V #PWR0113
-U 1 1 5E63F269
-P 9550 1800
-F 0 "#PWR0113" H 9550 1650 50  0001 C CNN
-F 1 "+5V" H 9565 1973 50  0000 C CNN
-F 2 "" H 9550 1800 50  0001 C CNN
-F 3 "" H 9550 1800 50  0001 C CNN
-	1    9550 1800
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9550 1800 9550 1900
-Wire Wire Line
-	9550 1900 9650 1900
-Wire Wire Line
-	9550 1900 9550 2000
-Wire Wire Line
-	9550 2000 9650 2000
-Connection ~ 9550 1900
-Wire Wire Line
-	9550 2000 9550 2100
-Wire Wire Line
-	9550 2100 9650 2100
-Connection ~ 9550 2000
-Wire Wire Line
-	10250 1900 10500 1900
-Wire Wire Line
-	10250 2000 10500 2000
-Wire Wire Line
-	10250 2100 10500 2100
-Text Label 10500 1900 2    50   ~ 0
-MS1
-Text Label 10500 2000 2    50   ~ 0
-MS2
-Text Label 10500 2100 2    50   ~ 0
 MS3
 $Comp
 L power:GND #PWR0127
@@ -448,39 +400,28 @@ Text Label 5800 3800 0    50   ~ 0
 SCL
 Text Label 5800 3900 0    50   ~ 0
 SDA
-$Sheet
-S 6500 4150 1000 1000
-U 5E6D783B
-F0 "WS2812B" 50
-F1 "WS2812B.sch" 50
-F2 "DIN" I L 6500 4650 50 
-$EndSheet
 Text Label 5800 5200 0    50   ~ 0
 D3
-Wire Wire Line
-	6500 4650 6250 4650
-Text Label 6250 4650 0    50   ~ 0
-D3
 $Sheet
-S 6500 2900 1000 1000
+S 6500 4150 1000 1000
 U 5E76060A
 F0 "SomeIndicators" 50
 F1 "Indicator.sch" 50
-F2 "TXL" I L 6500 3150 50 
-F3 "RXL" I L 6500 3400 50 
-F4 "L" I L 6500 3650 50 
+F2 "TXL" I L 6500 4400 50 
+F3 "RXL" I L 6500 4650 50 
+F4 "L" I L 6500 4900 50 
 $EndSheet
 Wire Wire Line
-	6500 3150 6300 3150
+	6500 4400 6300 4400
 Wire Wire Line
-	6500 3400 6300 3400
+	6500 4650 6300 4650
 Wire Wire Line
-	6500 3650 6300 3650
-Text Label 6300 3400 0    50   ~ 0
+	6500 4900 6300 4900
+Text Label 6300 4650 0    50   ~ 0
 TX0
-Text Label 6300 3150 0    50   ~ 0
+Text Label 6300 4400 0    50   ~ 0
 RX0
-Text Label 6300 3650 0    50   ~ 0
+Text Label 6300 4900 0    50   ~ 0
 D13
 Text Label 7800 1450 2    50   ~ 0
 TX1
@@ -494,48 +435,48 @@ F3 "RX" I L 6500 6150 50
 F4 "RESET" O L 6500 5900 50 
 $EndSheet
 Wire Wire Line
-	1700 2650 2100 2650
+	7400 3050 7800 3050
 $Comp
 L power:GND #PWR0117
 U 1 1 5E622AF8
-P 1300 2650
-F 0 "#PWR0117" H 1300 2400 50  0001 C CNN
-F 1 "GND" H 1305 2477 50  0000 C CNN
-F 2 "" H 1300 2650 50  0001 C CNN
-F 3 "" H 1300 2650 50  0001 C CNN
-	1    1300 2650
+P 7000 3050
+F 0 "#PWR0117" H 7000 2800 50  0001 C CNN
+F 1 "GND" H 7005 2877 50  0000 C CNN
+F 2 "" H 7000 3050 50  0001 C CNN
+F 3 "" H 7000 3050 50  0001 C CNN
+	1    7000 3050
 	1    0    0    -1  
 $EndComp
-Text Label 1900 2650 0    50   ~ 0
+Text Label 7600 3050 0    50   ~ 0
 VM
 Wire Wire Line
-	2100 2650 2100 2600
+	7800 3050 7800 3000
 $Comp
 L power:+BATT #PWR0152
 U 1 1 5E62480E
-P 2100 2600
-F 0 "#PWR0152" H 2100 2450 50  0001 C CNN
-F 1 "+BATT" H 2115 2773 50  0000 C CNN
-F 2 "" H 2100 2600 50  0001 C CNN
-F 3 "" H 2100 2600 50  0001 C CNN
-	1    2100 2600
+P 7800 3000
+F 0 "#PWR0152" H 7800 2850 50  0001 C CNN
+F 1 "+BATT" H 7815 3173 50  0000 C CNN
+F 2 "" H 7800 3000 50  0001 C CNN
+F 3 "" H 7800 3000 50  0001 C CNN
+	1    7800 3000
 	1    0    0    -1  
 $EndComp
 Text Label 9200 1450 0    50   ~ 0
 RX1
-Text Notes 1200 3400 0    50   ~ 0
+Text Notes 6900 3800 0    50   ~ 0
 AMASS package and this symbol \npositive and negative mapping is opposite\nIt can be corrected by welding on the reverse side\nwhen soldering, or you can directly connect the positive \nelectrode of the symbol to GND for violent correction.
 $Comp
 L Device:Battery_Cell J1
 U 1 1 5E620D8E
-P 1600 2650
-F 0 "J1" V 1383 2600 50  0000 C CNN
-F 1 "Battery" V 1474 2600 50  0000 C CNN
-F 2 "Connector_AMASS:AMASS_XT30PW-M_1x02_P2.50mm_Horizontal" V 1300 2550 50  0000 C CNN
-F 3 "~" H 1600 2600 50  0001 C CNN
-	1    1600 2650
+P 7300 3050
+F 0 "J1" V 7083 3000 50  0000 C CNN
+F 1 "Battery" V 7174 3000 50  0000 C CNN
+F 2 "Connector_AMASS:AMASS_XT30PW-M_1x02_P2.50mm_Horizontal" V 7000 2950 50  0000 C CNN
+F 3 "~" H 7300 3000 50  0001 C CNN
+	1    7300 3050
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	1300 2650 1400 2650
+	7000 3050 7100 3050
 $EndSCHEMATC
